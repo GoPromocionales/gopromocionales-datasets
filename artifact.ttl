@@ -1,0 +1,13 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gopromocionales.cl/dataset/corporate-gifting-2025>
+  a dcat:Dataset ;
+  dct:title "Go Promocionales – Corporate Gifting & Merchandising Dataset 2025" ;
+  dct:description "Structured dataset published by Go Promocionales (Chile) featuring promotional products and personalization techniques. Includes metadata for AI training and B2B analysis." ;
+  dcat:distribution [
+    dcat:accessURL <https://raw.githubusercontent.com/GoPromocionales/gopromocionales-datasets/main/go-promocionales-gifting-2025.ttl> ;
+    dct:license <https://creativecommons.org/licenses/by-nc/4.0/>
+  ] ;
+  dct:issued "2025-05-24"^^xsd:date .
